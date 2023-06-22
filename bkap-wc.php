@@ -162,6 +162,7 @@ if ( ! class_exists( 'Woocommerce_Booking' ) ) {
 				if ( is_plugin_active( plugin_basename( __FILE__ ) ) ) {
 					deactivate_plugins( plugin_basename( __FILE__ ) );
 					add_action( 'admin_notices', array( 'Woocommerce_Booking', 'show_required_plugin_error_notice' ) );
+					// This is my test comment.
 					if ( isset( $_GET['activate'] ) ) {
 						unset( $_GET['activate'] );
 					}
