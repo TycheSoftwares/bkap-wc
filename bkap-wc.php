@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! class_exists( 'Woocommerce_Booking' ) ) {
-
+     
 	/**
 	 * Booking & Appointment Plugin Core Class
 	 *
